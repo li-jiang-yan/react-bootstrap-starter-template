@@ -1,6 +1,5 @@
 import { useSyncExternalStore } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
-import './ColorModeDropdown.css';
 
 const ColorModeDropdown = () => {
   const theme = useSyncExternalStore(
