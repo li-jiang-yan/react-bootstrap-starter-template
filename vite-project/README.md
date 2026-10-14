@@ -1,5 +1,16 @@
 # React + Vite
 
+## GitHub Pages
+
+Live site: https://li-jiang-yan.github.io/react-bootstrap-starter-template/
+
+The repository's `.github/workflows/deploy.yml` builds this directory and deploys
+`dist` to GitHub Pages whenever changes are pushed to `main`. You can also run it
+manually from the Actions tab. In Settings → Pages, the source is GitHub Actions.
+
+Vite's `base` matches the repository name. Update it if the repository is renamed
+or the site moves to a custom domain.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

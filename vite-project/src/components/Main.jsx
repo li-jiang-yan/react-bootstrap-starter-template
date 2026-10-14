@@ -17,7 +17,7 @@ const Main = () => {
       </Col>
       <div className='mb-5'>
         <Button
-          href='../examples'
+          href='https://getbootstrap.com/docs/5.3/examples/'
           variant='primary'
           size='lg'
           className='px-4'
@@ -28,7 +28,7 @@ const Main = () => {
       <Col as='hr' xs={3} md={2} className='mb-5' />
       <Row className='g-5'>
         <Col md={6}>
-          <h2 class='text-body-emphasis'>Starter projects</h2>
+          <h2 className='text-body-emphasis'>Starter projects</h2>
           <p>
             Ready to go beyond the starter template? Check out these open
             source projects that you can quickly duplicate to a new GitHub
@@ -56,19 +56,19 @@ const Main = () => {
             contributing to Bootstrap.
           </p>
           <ul className='list-unstyled ps-0'>
-            <ListItem href='../getting-started/introduction'>
+            <ListItem href='https://getbootstrap.com/docs/5.3/getting-started/introduction/'>
               Bootstrap quick start guide
             </ListItem>
-            <ListItem href='../getting-started/webpack'>
+            <ListItem href='https://getbootstrap.com/docs/5.3/getting-started/webpack/'>
               Bootstrap Webpack guide
             </ListItem>
-            <ListItem href='../getting-started/parcel'>
+            <ListItem href='https://getbootstrap.com/docs/5.3/getting-started/parcel/'>
               Bootstrap Parcel guide
             </ListItem>
-            <ListItem href='../getting-started/vite'>
+            <ListItem href='https://getbootstrap.com/docs/5.3/getting-started/vite/'>
               Bootstrap Vite guide
             </ListItem>
-            <ListItem href='../getting-started/contribute'>
+            <ListItem href='https://getbootstrap.com/docs/5.3/getting-started/contribute/'>
               Contributing to Bootstrap
             </ListItem>
           </ul>
