@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ColorModeDropdown from './components/ColorModeDropdown'
 import Col from 'react-bootstrap/Col';
