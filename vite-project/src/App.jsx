@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import ColorModeDropdown from './components/ColorModeDropdown'
 import Col from 'react-bootstrap/Col';
 import Header from './components/Header';
@@ -7,7 +5,6 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
